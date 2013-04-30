@@ -11,6 +11,8 @@ dentro de esta clase tambien defini un fallback, que detecta si la conexion a in
 volviendo a bacgroundTracker en la app mas completa de geolocalizacion en background para ios existente y opensource.
 
 
-Gracias. Si estas interesado en mejorar este trabajo, tus pulla son bien recibidos.
+Gracias. Si estas interesado en mejorar este trabajo, tus pulls son bien recibidos.
+
+![app working](/app-ui.png)
 
 
