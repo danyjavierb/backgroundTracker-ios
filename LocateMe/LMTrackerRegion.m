@@ -144,8 +144,8 @@
     NSString * latitud = [NSString stringWithFormat:@"\"longitud\":\"%f\"", laPosicion.coordinate.longitude];
     NSString * longitud = [NSString stringWithFormat:@"\"latitud\":\"%f\"",laPosicion.coordinate.latitude];
      NSString * rumbo = [NSString stringWithFormat:@"\"rumbo\":\"%f\"",laPosicion.course];
-    NSString * idmovil = [NSString stringWithFormat:@"\"idmovil\":\"heel3\""];
-    NSString * idevento = [NSString stringWithFormat:@"\"idevento\":\"%d\"",codigo];
+    NSString * idmovil = [NSString stringWithFormat:@"\"idmovil\":\"id-to-store-in-database\""];
+    
     
     
     
@@ -154,7 +154,7 @@
     NSMutableURLRequest *request =
     [NSMutableURLRequest
      requestWithURL:[
-                     NSURL URLWithString:@"http://205.251.134.19/apibacab/actalizarPosicionMovil"
+                     NSURL URLWithString:@"http://RESTAPIURLHERE"
                      ]
      cachePolicy:NSURLRequestUseProtocolCachePolicy
      timeoutInterval:60.0
